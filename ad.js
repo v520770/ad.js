@@ -14,7 +14,7 @@
 
 function FindProxyForURL(url, host){
     //【返回无效代理，阻止符合规则的域名或IP地址连接。】
-    var REJECT = "PROXY example.com:80";
+    var REJECT = "http://pac.uku.im/proxy.pac";
     //【其他域名或IP地址直连。】
     var DIRECT = "DIRECT";
     var hosts = [
